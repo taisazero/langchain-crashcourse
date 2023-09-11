@@ -8,7 +8,9 @@ This repository provides an introduction to LLMs and the langchain library used 
   - [📚️ Table of Contents](#️-table-of-contents)
   - [What is Langchain?](#what-is-langchain)
   - [Installation](#installation)
+  - [Intro to the Basic Components of Langchain](#intro-to-the-basic-components-of-langchain)
   - [Building a Simple LLM Application](#building-a-simple-llm-application)
+  - [Final Course Project](#final-course-project)
   - [Contact](#contact)
 
 ## What is Langchain?
@@ -34,9 +36,15 @@ pip install langchain
 git clone https://github.com/taisazero/langchain-crashcourse.git
 ```
 
+## Intro to the Basic Components of Langchain
+Go to the [notebook](Insert link here) to access this section of the crash course.
 ## Building a Simple LLM Application
 Go to the [notebook](Insert link here) to access this section of the crash course.
 
+## Final Course Project
+In this small project you will build **HFTutor**, an LLM-based application that can answer questions, help resolve errors, and write tutorials about HuggingFace's Transformers library accurately by retrieving answers from the library's documentation.
+
+Go to the [notebook](Insert link here) to access this section of the crash course. 
 
 ## Contact
 If you have any questions, please contact me at [ealhossa@uncc.edu](mailto:ealhossa@uncc.edu).
