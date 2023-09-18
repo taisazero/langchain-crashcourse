@@ -1,0 +1,13 @@
+lancedb
+weaviate-client
+streamlit
+chainlit
+bs4
+langchain
+google-search-results
+openai
+python-dotenv
+lxml
+html2text
+tiktoken
+#accelerate
