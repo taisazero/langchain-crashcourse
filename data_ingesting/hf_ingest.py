@@ -115,7 +115,7 @@ def ingest_docs():
                 "from langchain.vectorstores import LanceDB\n" \
                 "db = lancedb.connect('/.lancedb')\n" \
                 f"table = db.open_table('hf_docs')\n" \
-                f"embedding_fn = OpenAIEmbeddings(chunk_size=1000)\n"
+                f"embedding_fn = OpenAIEmbeddings(chunk_size=200)\n"
                 f"vectorstore = LanceDB(table, embedding_fn)\n" \
             )
 
