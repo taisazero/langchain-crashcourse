@@ -98,7 +98,7 @@ def ingest_docs():
     logger.info(f"Crawled {len(all_dataset_urls)} urls")
 
    
-    embeddings = OpenAIEmbeddings(chunk_size=1000, disallowed_special=())  # rate limit
+    embeddings = OpenAIEmbeddings(chunk_size=200, disallowed_special=())  # rate limit
     db = lancedb.connect('../.lancedb')    
     table = db.create_table("hf_docs", data=[
     {"vector": embeddings.embed_query("Hello World"), "text": "Hello World", "id": "1"}
