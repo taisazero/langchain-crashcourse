@@ -11,4 +11,5 @@ lxml
 html2text
 tiktoken
 gdown
+google-api-python-client
 #accelerate

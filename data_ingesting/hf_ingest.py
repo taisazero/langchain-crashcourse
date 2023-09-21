@@ -14,7 +14,6 @@ import os
 import sys
 _ = load_dotenv(find_dotenv())
 
-WEAVIATE_DOCS_INDEX_NAME = "HF_agent_docs"
 
 logger = logging.getLogger(__name__)
 # set sys.stdout to have utf-8 encoding

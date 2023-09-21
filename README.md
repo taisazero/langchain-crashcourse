@@ -55,4 +55,3 @@ If you have any questions, please contact me at [ealhossa@uncc.edu](mailto:ealho
 ## References
 This crash course is based on the following resources:
 - [LangChain Handbook](https://www.pinecone.io/learn/series/langchain/langchain-intro/)
-- 
