@@ -167,3 +167,7 @@ notebooks/.chainlit/*
 app.py
 notebooks/*.py
 notebooks/chromadb_oai/*
+notebooks/.answer_keys/.chainlit/*
+notebooks/.answer_keys/.lancedb/*
+notebooks/.answer_keys/*.py
+notebooks/.answer_keys/*.md
