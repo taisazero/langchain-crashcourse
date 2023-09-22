@@ -44,9 +44,9 @@ Go to the [notebook](https://github.com/taisazero/langchain-crashcourse/blob/mai
 Go to the [notebook](https://github.com/taisazero/langchain-crashcourse/blob/main/notebooks/2-simple_agent_exercise.ipynb) to access this section of the crash course.
 
 ## Retrieval-based Question Answering Lab
-In this small project you will build 🤗**HuggingTutor** , an LLM-based application that can answer questions, help resolve errors, and write tutorials about HuggingFace's Transformers library accurately by retrieving answers from the library's documentation.
+In this small project you will build 🤗**HuggingTutor**, an LLM-based application that can answer questions, help resolve errors, and write tutorials about HuggingFace's Transformers library accurately by retrieving answers from the library's documentation.
 
-Go to the [notebook](https://github.com/taisazero/langchain-crashcourse/blob/main/notebooks/3-retrieval_aug_geen_exercise.ipynb) to access this section of the crash course.
+Go to the [notebook](https://github.com/taisazero/langchain-crashcourse/blob/main/notebooks/3-retrieval_aug_gen_exercise.ipynb) to access this section of the crash course.
 
 ## Contact
 If you have any questions, please contact me at [ealhossa@uncc.edu](mailto:ealhossa@uncc.edu).
