@@ -49,7 +49,7 @@ In this small project you will build 🤗**HuggingTutor**, an LLM-based applicat
 Go to the [notebook](https://github.com/taisazero/langchain-crashcourse/blob/main/notebooks/3-retrieval_aug_gen_exercise.ipynb) to access this section of the crash course.
 
 ## Contact
-If you have any questions, please contact me at [ealhossa@uncc.edu](mailto:ealhossa@uncc.edu).
+If you have any questions, please contact me at [erfan.hossami@gmail.com](mailto:erfan.hossami@gmail.com).
 
 ## References
 This crash course is based on the following resources:
