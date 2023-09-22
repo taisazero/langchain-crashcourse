@@ -28,9 +28,9 @@ conda create -n langchain python=3.8
 ```
 conda activate langchain
 ```
-4. Install langchain:
+4. Install Dependencies:
 ```
-pip install langchain
+pip install -r requirements.txt
 ```
 5. Clone this repository:
 ```
