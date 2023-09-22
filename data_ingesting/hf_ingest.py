@@ -14,7 +14,6 @@ import os
 import sys
 _ = load_dotenv(find_dotenv())
 
-
 logger = logging.getLogger(__name__)
 # set sys.stdout to have utf-8 encoding
 sys.stdout.reconfigure(encoding="utf-8")
@@ -98,7 +97,7 @@ def ingest_docs():
 
    
     embeddings = OpenAIEmbeddings(chunk_size=200, disallowed_special=())  # rate limit
-    db = lancedb.connect('../.lancedb')    
+    db = lancedb.connect('../notebooks/.lancedb')    
     table = db.create_table("hf_docs", data=[
     {"vector": embeddings.embed_query("Hello World"), "text": "Hello World", "id": "1"}
         ], mode="overwrite")
@@ -119,4 +118,16 @@ def ingest_docs():
             )
 
 if __name__ == "__main__":
-    ingest_docs()
+    instructions = """
+        To run me from the command line:
+        python hf_ingest.py
+        Ensure you have a .env file in the same directory as this script with the following:
+        OPENAI_API_KEY=YOUR_API_KEY
+    """
+    print("Ingesting documents...")
+    try:
+        ingest_docs()
+    except Exception as e:
+        logger.error(e)
+        logger.error(instructions)
+        raise e

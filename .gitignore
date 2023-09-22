@@ -161,6 +161,9 @@ cython_debug/
 
 hf_docs/*
 .lancedb/*
+notebooks/.lancedb/*
 .chainlit/*
+notebooks/.chainlit/*
 app.py
+notebooks/*.py
 notebooks/chromadb_oai/*

@@ -8,9 +8,9 @@ This repository provides an introduction to LLMs and the langchain library used 
   - [📚️ Table of Contents](#️-table-of-contents)
   - [What is Langchain?](#what-is-langchain)
   - [Installation](#installation)
-  - [Intro to the Basic Components of Langchain](#intro-to-the-basic-components-of-langchain)
-  - [Building a Simple LLM Application](#building-a-simple-llm-application)
-  - [Final Lab Project](#final-lab-project)
+  - [Intro to Chains Lab](#intro-to-chains-lab)
+  - [Building a Simple Agent Lab](#building-a-simple-agent-lab)
+  - [Retrieval-based Question Answering Lab](#retrieval-based-question-answering-lab)
   - [Contact](#contact)
   - [References](#references)
 
@@ -37,17 +37,16 @@ pip install langchain
 git clone https://github.com/taisazero/langchain-crashcourse.git
 ```
 
-## Intro to the Basic Components of Langchain
-Go to the [notebook](Insert link here) to access this section of the crash course.
+## Intro to Chains Lab
+Go to the [notebook](https://github.com/taisazero/langchain-crashcourse/blob/main/notebooks/1-intro_to_chains_exercise.ipynb) to access this section of the crash course.
 
-## Building a Simple LLM Application
-Go to the [notebook](Insert link here) to access this section of the crash course.
+## Building a Simple Agent Lab
+Go to the [notebook](https://github.com/taisazero/langchain-crashcourse/blob/main/notebooks/2-simple_agent_exercise.ipynb) to access this section of the crash course.
 
-## Final Lab Project
-In this small project you will build 🤗**HuggingTutor** ,  an LLM-based application that can answer questions, help resolve errors, and write tutorials about HuggingFace's Transformers library accurately by retrieving answers from the library's documentation.
+## Retrieval-based Question Answering Lab
+In this small project you will build 🤗**HuggingTutor** , an LLM-based application that can answer questions, help resolve errors, and write tutorials about HuggingFace's Transformers library accurately by retrieving answers from the library's documentation.
 
-
-Go to the [notebook](Insert link here) to access this section of the crash course. 
+Go to the [notebook](https://github.com/taisazero/langchain-crashcourse/blob/main/notebooks/3-retrieval_aug_geen_exercise.ipynb) to access this section of the crash course.
 
 ## Contact
 If you have any questions, please contact me at [ealhossa@uncc.edu](mailto:ealhossa@uncc.edu).
@@ -55,3 +54,6 @@ If you have any questions, please contact me at [ealhossa@uncc.edu](mailto:ealho
 ## References
 This crash course is based on the following resources:
 - [LangChain Handbook](https://www.pinecone.io/learn/series/langchain/langchain-intro/)
+- [SamurAI's LangChain Course](https://github.com/SamurAIGPT/langchain-course/)
+- [LangChain Documentation](https://python.langchain.com)
+- [DeepLearning.AI LangChain Course](https://learn.deeplearning.ai/langchain)
