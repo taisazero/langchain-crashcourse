@@ -3,13 +3,14 @@ weaviate-client
 streamlit
 chainlit
 bs4
-langchain
 google-search-results
-openai
+openai==0.28.1
 python-dotenv
 lxml
 html2text
 tiktoken
 gdown
 google-api-python-client
-#accelerate
+accelerate
+langchain==0.0.294
+pandas

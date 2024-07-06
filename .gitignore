@@ -171,3 +171,7 @@ notebooks/.answer_keys/.chainlit/*
 notebooks/.answer_keys/.lancedb/*
 notebooks/.answer_keys/*.py
 notebooks/.answer_keys/*.md
+hf_docs_oai/*
+.vscode/*
+notebooks/.lancedb_jina/*
+notebooks/.lancedb_jina_code/*
